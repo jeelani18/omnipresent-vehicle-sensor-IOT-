@@ -1,0 +1,20 @@
+Circuit Diagram -
+	-> In this Project, the circuit diagram is designed using the following components i.e.,
+		--> Arduino UNO Board
+		--> BreadBoard
+		--> Two Hall Effect sensors and
+		--> Two Led Lights for detection of vehicles
+	-> These components are being constructed accordingly for detection of vehicles with the
+	   help of these hall effect sensors.
+	-> Firstly, the two hall effect sensors are connected to the arduino board for receiving
+	   inputs through analog signals and gives outputs through digital signals in the Arduino
+	   board.
+	-> Then, the same procedure is done in the both LED lights i.e., connecting the cathode to the
+	   ground of the Arduino board and Anode to the digital signal of the arduino board for blinking
+	   the LED lights.
+	-> These sensors are serialized with the help of breadboard because multiple circuits helps the
+	   user to connect these components to the Arduino board.
+	-> This can be demonstrated as whenever the vehicles are moving, then the magnetic fields
+	   which are present on the engines interacts with the hall effect sensors and takes the
+	   magnetic fields as an input and represents in the form of LED lights as an output which
+	   alerts the trespassers to avoid crossing the roads whenever the vehicles are moving.
